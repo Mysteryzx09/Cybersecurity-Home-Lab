@@ -38,3 +38,5 @@ Build an Ubuntu target VM
 Configure bridged networking
 Learn Wireshark packet analysis
 Perform service enumeration with Nmap
+
+Troubleshooting: Initially Kali Linux was configured using VirtualBox NAT, which isolated the Virtual Machine from my home network. To provide full network visibility, I upgraded VirtualBox, repaired the networking components, and configured a Bridged Adapter using my Intel Wi-Fi adapter. After bridging, Kali received the IP address 192.168.12.106 from my home router. 
